@@ -30,9 +30,8 @@ class BoundingBox
       if y >= @bottom and y <= self.top
         return true
       end
-    else
-      return false
     end
+    return false
   end
 
 end
